@@ -12,6 +12,13 @@ results/
 *.epub
 out/
 output/
+
+# Keep sanitized Chapter 1 learning summaries while leaving raw run outputs
+# ignored by default. Raw API JSON can contain provider-side identifiers.
+!/chapter1/experiment/output/
+chapter1/experiment/output/**/*
+!/chapter1/experiment/output/**/
+!chapter1/experiment/output/**/*summary.md
 user-memory/data/
 document_store.json
 trajectory.json
