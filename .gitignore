@@ -20,6 +20,13 @@ chapter1/experiment/output/**/*
 !/chapter1/experiment/output/**/
 !chapter1/experiment/output/**/*summary.md
 
+# Keep sanitized Chapter 3 learning summaries while leaving raw experiment
+# outputs local. The notes and screenshots live outside the ignored output tree.
+!/chapter3/experiment/output/
+chapter3/experiment/output/**/*
+!/chapter3/experiment/output/**/
+!chapter3/experiment/output/**/*summary.md
+
 # Local Chapter 1 image-generation evidence can be large; keep public notes
 # under chapter1/experiment instead.
 /chapter1/image-gen-workflow/validation/real_202609*/
