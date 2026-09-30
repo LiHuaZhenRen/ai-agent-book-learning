@@ -41,6 +41,13 @@ chapter4/experiment/output/**/*
 !/chapter4/experiment/output/**/
 !chapter4/experiment/output/**/*summary.md
 
+# Keep sanitized Chapter 5 learning summaries while leaving raw provider
+# JSON and checkpoints local. Notes, inputs and screenshots remain trackable.
+!/chapter5/experiment/output/
+chapter5/experiment/output/**/*
+!/chapter5/experiment/output/**/
+!chapter5/experiment/output/**/*summary.md
+
 # Local Chapter 1 image-generation evidence can be large; keep public notes
 # under chapter1/experiment instead.
 /chapter1/image-gen-workflow/validation/real_202609*/

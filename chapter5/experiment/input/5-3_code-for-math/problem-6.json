@@ -1,0 +1,9 @@
+[
+  {
+    "id": 6,
+    "question": "How many integers from 1 to 1000 inclusive can be written as a^2 + b^2 for some non-negative integers a and b?",
+    "answer": 330,
+    "topic": "sum of two squares",
+    "solution": "S = set()\nfor a in range(0, 32):\n    for b in range(0, 32):\n        s = a * a + b * b\n        if 1 <= s <= 1000:\n            S.add(s)\nprint(len(S))"
+  }
+]

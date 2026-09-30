@@ -1,0 +1,9 @@
+[
+  {
+    "id": 11,
+    "question": "How many ordered pairs of integers (x, y) satisfy x^2 + y^2 < 400?",
+    "answer": 1245,
+    "topic": "lattice points",
+    "solution": "c = 0\nfor x in range(-20, 21):\n    for y in range(-20, 21):\n        if x * x + y * y < 400:\n            c += 1\nprint(c)"
+  }
+]
