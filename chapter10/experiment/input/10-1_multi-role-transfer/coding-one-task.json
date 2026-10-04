@@ -1,0 +1,7 @@
+[
+  {
+    "id": "coding_fibonacci_personal",
+    "kind": "coding",
+    "prompt": "请用 Python 计算斐波那契数列前 20 项（定义 F1=1、F2=1）及其总和；必须实际调用 execute_python 验证结果。得到运行结果后，交给 writing 角色用不超过 120 个中文字符向非技术读者解释。不要联网，也不要调用 web_search。"
+  }
+]

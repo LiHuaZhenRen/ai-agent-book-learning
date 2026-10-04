@@ -1,0 +1,7 @@
+[
+  {
+    "id": "coding_fibonacci_short_answer",
+    "kind": "coding",
+    "prompt": "请用 Python 计算斐波那契数列前 20 项（定义 F1=1、F2=1）的第 20 项及前 20 项总和，必须实际调用 execute_python 验证。完成后使用 writing 能力给出最终回答。最终回答只能有一句中文，总字符数不超过 120，必须包含第 20 项和总和的实际数值；不要列出全部 20 项，不要写计算过程、标题、Markdown 或字数说明。不要联网，也不要调用 web_search。"
+  }
+]
